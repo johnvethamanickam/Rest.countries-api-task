@@ -1,0 +1,78 @@
+body {
+  background-color: rgb(60, 69, 107);
+}
+
+nav {
+  text-align: center;
+  color: white;
+  border: 1px solid whitesmoke;
+  height: 2cm;
+  width: 5cm;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+h1 {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5px;
+  padding: 5px;
+  }
+#footer {
+  text-align: center;
+  padding-top: 9px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background-color: rgb(56, 56, 56);
+  position: fixed;
+  right: 0;
+  padding: 5px;
+}
+
+.card-group {
+  margin: 10px;
+  box-shadow: 4px 3px 5px lightslategray;
+}
+
+#flag-img {
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  width: 97.5%;
+  height: 5cm;
+  
+}
+
+.card-header {
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.card-title {
+  font-weight: bolder;
+  font-size: 1rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.content {
+  background-color: whitesmoke; 
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.card-body {
+  background-image: linear-gradient(to left, black, rgb(255, 245, 111));
+}
+
+#temp-btn {
+  position: relative;
+  left: 70px;
+  margin-bottom: 5px;
+}
